@@ -178,3 +178,13 @@ footer a {
 footer a:hover {
   filter: brightness(0.8);
 }
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/Background/darkmodeweb.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/Background/lightmodeweb.jpg);
+  }
+}
